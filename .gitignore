@@ -6,11 +6,13 @@ server/node_modules/
 # Environment Variables
 .env
 .env.*
-!.env.example
 client/.env
 server/.env
 client/.env.*
 server/.env.*
+!.env.example
+!client/.env.example
+!server/.env.example
 
 # Production Builds
 dist/
